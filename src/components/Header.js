@@ -9,7 +9,7 @@ class Header extends Component {
                     <Link to="/" className="left brand-logo">
                         CryptoBase
                     </Link>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li key="1"><a href="/">Home</a></li>
                         <li key="2"><a href="/about">About</a></li>
                     </ul>

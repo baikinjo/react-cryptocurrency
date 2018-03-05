@@ -69,7 +69,7 @@ class CryptoLists extends Component {
                                     style={coin.percent_change_24h > 0 ? positivePercentage : negativePercentage}>
                                     {coin.percent_change_24h}%                                    
                                     {/* change icon depending on +/- percentage */}
-                                    <i className="material-icons" font-size="1.5rem">
+                                    <i className="material-icons" fontSize="1.5rem">
                                     {coin.percent_change_24h > 0 ? 'arrow_drop_up' : 'arrow_drop_down'}</i>                                    
                                 </span></td>
                                 <td><Moment unix format="MMM DD HH:mm" tz="America/Vancouver">{coin.last_updated}</Moment></td>
